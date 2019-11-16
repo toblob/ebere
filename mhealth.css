@@ -135,46 +135,69 @@ footer {
 }
 
 .ring {
-    height: 60px;
+    height: 40px;
     text-align: center;
-    padding-top: 30px;
+    padding: 10px;
+}
+
+.ring p{
+    padding: 5px;
 }
 
 hr {
     border-color: rgb(196, 48, 48);
 }
 
-.back {
-    background-color: rgb(243, 69, 69);
-    width: 350px;
-    height: 29px;
-    text-align: center;
-    margin-left: 700px;
-    border-radius: 40%;
-    margin-top: 25px;
-}
-
 .footer-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .social{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 250px;
+    width: 150px;
 }
 
 .social-icon{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border: 1px solid black;
     border-radius: 50%;
     margin: 8px;
 }
 
 .social .fa{
-    padding: 25%;
+    padding-top: 20%;
+}
+
+.send-mail{
+    color: white;
+    background-color: rgb(196, 48, 48);
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+}
+
+.send-mail a {
+    color: white;
+}
+
+.send-mail .fa {
+    margin-right: 4px;
+}
+
+.send-chat i{
+    font-size: 25px;
+}
+
+.send-chat .fa{
+    margin-left: 10px;
+    color:rgb(196, 48, 48);
 }
